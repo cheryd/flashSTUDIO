@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+}
+
+#home .home-content{
+    background-image: url("images/Flash.png");
+    color: #fff;
+    padding: 30px;
+}
+
+/* this part is not neccessary */
+body{
+    font-family:'roboto',sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* end of it*/
+
+a{text-decoration: none;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:rgb(156, 16, 156);
+    border-radius: 5px;
+    
+    }
+
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+
+    }
+    .navbar ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+	
+	.logo_title, .navbar ul li a {
+         color: #fff; 
+        }
+	
+
+	.navbar ul li a:hover {
+        display: flex;
+    }
+
+    .navbar a{
+        font-size: 1.3rem;
+        color: var(--text-color);
+        margin-left: 4rem;
+        transition: .3s;
+    }
+
+    h1{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    header{
+        position:sticky ;
+        top: 0;
+    }
+
+
+    .pied{
+		display: flex;
+        height: 300 px;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 2rem 9%;
+	background: rgb(156, 16, 156);
+    margin-left: 0cap;
+	}
+
+   
+    
+    .page p{
+font-size: 1rem;
+font-family: sans-serif;
+text-align: center;
+color:white ;
+
+    }
+    .pied{
+        flex-direction: column-reverse; 
+    }
+
+
+
+
+    
+    section {
+        
+        height: 300vh;
+    }
+
+
+    form{
+        display: flex;
+        padding: 5%;
+        border-radius: 6%;
+        justify-content: center;
+    }
+       .content{
+        background-color:white;
+        justify-content: center;
+        margin: 6%;
+        border-radius: 6%;
+        width: 100%;
+        height: 400PX;
+        padding: 5px;
+       background-color:plum;
+        background-repeat: no-repeat;
+       }
+       .content h3{
+        text-align: center;
+       }
+       
+       img{ display: grid;
+        height: 15vh;
+        border-radius: 6%;
+    }
+    .content h2{
+        margin: 10%;
+    }
+    h1{
+        text-align: center;
+        margin: 2%;
+    }
+    
+        .servi{
+            background-color: white;
+            height: 800px;
+            padding: 50px;
+        }
+    hr{
+        height: 2%;
+        color: rgb(175, 175, 175);
+        border: 1;
+        margin: 5%;
+    }
+    .servi p{
+        font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+    }
+
+.servi h1{
+    color: purple;
+}
+
+    .galerie{
+        background-color: plum;
+        height: 800px;
+        padding: 50px;
+    }
+    
+    .photo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+       height: 250px;
+       width: 100%;
+       float: center;
+      
+    }
+
+
+    .photo img{
+        margin: auto;
+                height: 200px;
+                width: 200px;
+        
+            }
+
+
+    .content h3{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .content img{
+margin: auto;
+        height: 100px;
+        width: 100px;
+
+    }
+     
+    .mesphotos{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    
+    
+    /*formulaire*/
+
+.formulaire{
+    background-color:plum;
+    font-family: 'roboto',sans-serif;
+    height: 900px;
+    padding: 50px;
+}
+.signup-box{
+    width: 400px;
+    height: 620px;
+    margin:auto;
+    background-color: white;
+    border-radius: 5%;  
+}
+
+label{
+    text-align: center;
+    padding: 0px;
+ 
+}
+
+
+
+h4{
+    text-align: center;
+    padding: 25px;
+    font-family: initial;
+    font-size:25px ;
+}
+.hhhh{
+    width: 150px;
+   text-align: center;
+   display: inline-block;
+    margin: 100px;
+    padding: 10px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+
+
+.hhhh label{
+    
+    margin-top: 5px;
+    display: ruby;
+    font-size: 15px;
+    margin: 5px;
+}
+form input{
+    width: 200%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    display: grid;
+}
+
+
+
+
+input[type="button"]{
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 28px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.para-2{
+    font-size: 15px;
+    margin-top: 20px;
+    color: black;
+}
+
+button{
+    text-align: center;
+    width: 255px;
+    height: 30px; ;
+    background-color: blue;
+    border-radius: 6%;
+}
+    
+
+.contact{
+    background-color:white;
+    height: 600px;
+   
+}
+
+.ref{
+    background-color:plum;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 50px; 
+}
+
+.cont h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.cont a{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 2rem solid #fff;
+	border-radius: 50%;
+	font-size: 3rem;
+	color:blue;
+	margin: 3rem 1.5rem 3rem 0;
+	transition: 10s ease;
+    background-color: #fff;
+    margin-top: 0%;
+}
+
+
+
+
+
+.video{
+    background-color: #fff;
+    height: 500px;
+}
+
+
+
+
+.video h1{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: purple;
+  
+}
+
+
+.vidd{
+gap: 1rem;
+display: grid;
+width: 50px;
+grid-template-columns: repeat(3,1fr);
+
+margin-left: 100px;
+}
+
+
+.vidd{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 2rem;
+height: 250px;
+width: 100%;
+
+}

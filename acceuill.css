@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(156, 16, 156);
+   
+    
+}
+
+#home {
+    height: 600px;
+    background-image: url("images/Flash.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.formulaire{
+    background-color:plum;
+    font-family: 'roboto',sans-serif;
+    height: 900px;
+    padding: 15px;
+}
+.signup-box{
+    width: 400px;
+    height: 800px;
+    margin:auto;
+    background-color: white;
+    border-radius: 5%;  
+}
+
+label{
+    text-align: center;
+    padding: 0px;
+ 
+}
+
+
+
+h4{
+    text-align: center;
+    padding: 25px;
+    font-family: initial;
+    font-size:25px ;
+}
+.hhhh{
+    width: 100px;
+   text-align: center;
+   display: grid;
+    margin: 100px;
+    padding: 10px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+
+
+.hhhh label{
+    
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 18px;
+    margin: 5px;
+}
+form input{
+    width: 200%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    display: grid;
+}
+
+
+
+
+input[type="button"]{
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 28px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.para-2{
+    font-size: 15px;
+    margin-top: 20px;
+    color: black;
+}
+
+button{
+    text-align: center;
+    width: 415px;
+    height: 20px; ;
+}
+    
